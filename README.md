@@ -24,11 +24,6 @@ pip install -r requirements.txt
 
 If you want to re-run the evaluations and get the final output logic described in the report without running the extensive training stages, use the following execution flow:
 
-### Getting Short Report Answers
-To verify specific assignment requests (Total Params, Corpus size, Top 10 Words, Student Vector, Analogy Result), run:
-```bash
-python extract_answers.py
-```
 
 ### Problem 1: Eval & Plots
 Moves through all 158 Word2Vec `.model` binaries and outputs the Analogy CSV and the Clustering Output CSV, checking against analogies. Then run the visualize script for the TSNE and PCA images.
