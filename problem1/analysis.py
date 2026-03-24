@@ -195,15 +195,7 @@ def main():
     print(f"\n{'=' * 70}")
     print("COMPARISON NOTES")
     print(f"{'=' * 70}")
-    print("""
-  CBOW vs Skip-gram Key Differences:
-  - CBOW predicts the target word from context words. It tends to perform
-    better on frequent words and produces smoother representations.
-  - Skip-gram predicts context words from the target word. It usually
-    performs better on rare words and captures more fine-grained semantics.
-  - For a domain-specific corpus like IIT Jodhpur data, the differences
-    may be subtle but should be observable in analogy and similarity tasks.
-    """)
+    
     
     print("[DONE] Semantic analysis complete!")
 
